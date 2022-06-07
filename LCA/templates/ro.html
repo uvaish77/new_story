@@ -1,0 +1,257 @@
+{% load static from staticfiles %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'cardtrust.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Rubik:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/d93444fe93.js" crossorigin="anonymous"></script>
+    <title>R.O Project</title>
+  </head>
+  <body>
+
+<!--navbars-->
+
+  <div class="navbarss">
+
+  <!--  <div class="id">
+     <img  src="images/logo (1).png" alt="" width="350" height="84">
+  </div>-->
+      <div class="id">
+          <a class="nav-link" href="{% url 'home-page' %}">
+              <img  src="{% static 'logo.png' %}" alt="" width="100%" height="">
+          </a>
+  </div>
+      <!--<div class="phone">
+              <i class="fa-solid fa-phone"> 7299449083</i>
+          <br>
+      </div>
+    <div class="email">
+      <i class="fa-solid fa-envelope"> info@council.com</i>
+    </div>-->
+<!--  <div class="btt">
+    <button type="button" role="group" class="btn btn-outline-primary"> <h5>Membership</h5> </button>
+
+  </div>-->
+
+
+   <!--navbars-->
+
+    <nav class=" nav navbar navbar-expand-lg navbar-light justify-content-center" style="background-color: #FAFFAF;">
+     <div class="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+       </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="nnn">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'home-page' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'card-trust' %}">Card Trust</a>
+        </li>
+               <li class="nav-item">
+          <a class="nav-link active" href="{% url 'about-us' %}">About Us</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'donate-info' %}">Donate</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'events' %}">Events</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'testimonials' %}">Testimonials</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="{% url 'cancer' %}">Cancer Hospital and Research Project</a></li>
+            <li><a class="dropdown-item" href="{% url 'ro' %}">R.O Project</a></li>
+              <li><a class="dropdown-item" href="{% url 'video' %}">Video</a></li>
+
+          </ul>
+		  </li>
+      </ul>
+        </div>
+    </div>
+  </div>
+</nav>
+
+  </div>
+
+<!--middle-->
+
+<div class="content-img">
+       <img src="{% static 'robg.png' %}" class="d-block w-100" alt="..."  width="100%" height="">
+  </div>
+<br>
+
+
+ <div class="cancerpage">
+       <img src="{% static 'gallary2/ro.png' %}" class="ropagebg" alt="..."  width="" height="">
+  </div>
+
+
+  <div class="content">
+
+
+      <h4>Summary</h4>
+      <p>Tamil Nadu is an Indian state located in the southern region of India. Tamil Nadu state is established on 26-Jan-1950
+      Total area of Tamil Nadu is 1,30,060, km square including 16,424.47 km square rural area 13,635.53 urban area. Tamil Nadu has a population
+      of 7,21,47,030 peoples. There are 1,85,24,982 houses in the state.
+      </p>
+      <p>There are 12,620 Village panchayats in the state across the 30 districts and the 385 Blocks. The average number of Village Panchayats per district is 421 and per Block
+      is 32. The Nilgiris(32), Kanyakumari(99), Theni(130) and Karur (158) are some of the districts with fewer village panchayats while Viluppuram (1104), Tiruvannamalai (860),
+      Vellore (753), Cuddalore (683) and Kancheepuram (648) are some of the districts with large number of Village Panchayats. In addition to the 681 village panchayats in Cuddalore District
+       two more Village Panchayats viz. Perumathur and Indira Nager have been newly constituted in Kurinjipadi Panchayat Union and have started functioning from 18.08.2008.</p>
+      <p>Since the Village Panchayats in Tamil Nadu vary widely in population from below 500 to above 25,000 and as the devolution of state Finance Commission grant is vey mostly
+      limited to population, the smaller Village Panchayats got less grant and the bigger Village Panchayats got more. While the needs of bigger Village Panchayats are also greater.
+      It is a fact that there were cases where some Village Panchayats found it difficult to pay their electricity bills on time, a few couldn't pay the salaries and wages of their
+      employees on time.</p>
+      <h6>Some of the important functions of the village panchayats are:</h6>
+       <li>1. Construction, repair and maintenance of all village roads.</li>
+      <li>2. Extension of village sites and the regulations of buildings.</li>
+      <li>3. Lightning of public roads and public places in built-up areas.</li>
+      <li>4. Construction of drains.</li>
+      <li>5. Cleaning of streets and improvement of the sanitary condition of the village.</li>
+      <li>6. Construction and maintenance of public latrines.</li>
+      <li>7. Sinking and repairing of wells, the excavation, repair and maintenance of ponds or tanks and the constructions and maintenanceof water-works for the supply of water.</li>
+      <li>8. Maintenance of burial and burning grounds.</li>
+      <li>9. Maintenance of parks and reading rooms, etc.</li>
+
+      <h5>Introduction </h5>
+
+      <p>  Card Trust work for the welfare and development of rural poor in villages with particular emphasis on village development. CARD support rural people who are in need of food, education, health care, shelter and clothing, emotional and moral support. It also actively takes part in the implementation of a variety of constructive development and awareness programs for and on behalf of the Government and the globalized private and public sector organizations and voluntary agencies. </p>
+
+      <h5>Our Mission</h5>
+      <p>To facilitate and ensure corporate development through better resource - utilization and participative development of beneficiaries with the objective of promoting and empowered society which will encourage the emergence of empovered, self-reliant and co-operative people all around the villages.
+       </p>
+      <h5>Our vision</h5>
+      <p>We improve the condition of women through direct employment, education, medical aid and training opportunities.</p>
+
+      <h5>Our Goal</h5>
+       <p>CARD Trust commits time bound programs, organizational role expectations in development of productivity in terms of increase in per-capita income, and the aim is to bring a socio-economic transformation.  </p>
+      <h5>Purpose of this Project</h5>
+
+      <p>The purpose and anticipated end result of this proposal is improve the basic needs of villages with provided clean drinking water. </p>
+
+      <h5>Needs/Problems </h5>
+      <h6>HAT ARE THE TYPES OF DRINKING WATER PROBLEMS IN INDIA? </h6>
+       <p>India has the highest number of people who lack access to clean water, imposing a huge financial burden tör some of the country's poorest population.</p>
+       <p>As per UN Water, water security refers to the capacity of a population to safeguard sustainable access to adequate quantities of and acceptable quality of water for supporting livelihoods.</p>
+
+       <h6>India's Water Crisis</h6>
+        <p>India's water crisis is often attributed to the urbanisation, industrialisation and human waste flowing into water sources and polluting groundwater, as well as con-uption at different levels that delay various processes and tasks, In addition, water scarcity in India is expected to worsen as the overall population is expected to increase to I .6 billion' by year 2050.</p>
+        <p>As per the report submitted by the Committee on Restructuring the Central Water Commission (CWC) and the Central Ground Water Board (CGWB), 2016 if the current pattem of demand continues, about half of the demand for water will be unmet by 2030. Water tables, the level below which the ground is saturated with water, are falling in most parts of India. Minerals like fluoride, arsenic, mercury, and uranium are present in the groundwater, which lead to chronic water borne diseases. Climate change poses fresh challenges as more extreme rates of rainfall and evapotranspiration intensify the impacts of floods and droughts.</p>
+        <p>Groundwater provides 80% of India's drinking water and nearly two-thirds of irrigation needs. Over the last four decades, around 84% of the total addition to irrigation has come from groundwater. Moreover, 60% of India's districts face groundwater over-exploitation and/or serious quality issues. In fact of the nural water supply is based on groundwater. India's 251 cubic kilometre (cu km) annual groundwater extraction rate makes India the world's biggest consumer of groundwater, according to a 2012 United Nations Educational.</p>
+
+       <h6>Equity in Water Supply </h6>
+       <p>As per JMP Thematic Report on Drinking Water and Equity 2011, a great amount of progress has been made by India in terms of access to improved drinking water sources.  Coverage levels have increased significantly across all quintiles. A majority of the richest quintile. however, continues to use piped water on premises, whereas an increasing number of the poorest rely on boreholes with hand pumps.</p>
+
+       <h6>Water Quality</h6>
+       <p>The quality of water available to the country is in a very poor state. It is affected by sewage
+           discharge, surface runoff of rainwater caused due to urbanisation, and untreated discharge from industries.</p>
+       <p>The alarming condition of water quality is based on the fact that the lack of clean drinking water has put over 115 million people of India at a high risk of a bone crippling disease, fluorosis. The ministry of health and family welfare has identified 19 states severely affected by high fluoride content in drinking water, and at least 10 states suffering from arsenic contamination causing Arsenicosis-a disease that affects the lungs, skin, kidneys and liver due to arsenic poisoning.</p>
+
+      <h5>Goals/Objectives</h5>
+      <p>We focus on improving access to water In India, the government has progressive decentralised policies and programmes for water supply and security WaterAid recognis the mandate and the role of the government and facilitates the process of translatingen into action in challenging contexts</p>
+      <p>We realise that the key to drinking water security lies with the community. Our approach involves promoting locally-owned and managed drinking water security plans at the community-level. These plans are simple which can be used, monitored and managed by people and local governments</p>
+
+      <h5>Procedures/Scope of Work</h5>
+      <p>Kemponents of our work on drinking water security include.</p>
+      <h6>Participatory water resource management</h6>
+      <li>Building capacity of local government and community on the principles, processes and provisions:</li>
+      <li> Mapping of water resources and usage. </li>
+      <li>Water budgeting and allocation:</li>
+      <li> Improving access to water supply by leveraging government resources; and</li>
+      <li>Advocacy for regulations of water use in water stressed areas and protection of groundwater</li>
+      <br>
+      <h6>Source Sustainability Measures.</h6>
+      <li>Rainwater harvesting, groundwater recharge:</li>
+      <li>Alternate water supplies like developing surface water systems and</li>
+      <li>Promoting complementary use of water source-securing scarce fresh water source for consumption.</li>
+      <br>
+      <h6>Water Quality Management</h6>
+      <li>Water safety plans-prevent contamination before it happens: </li>
+      <li> Treatment of water with appropriate technologies (in arsenic or fluoride endemic areas</li>
+      <li> Monitoring, surveillance and testing through water quality field test kits, and</li>
+      <li> Advocacy for adequate infrastructure and accountability at district and regional labs</li>
+      <br>
+      <h6>Operation and maintenance</h6>
+      <p>Ensure skills, spares and tools for regular maintenance and management (mechanics. pump operators, spares bank, tools for regular maintenance and repair): Finance for operation and maintenance, replacement, expansion and modernisation (through village commillees or local government based maintenance funds); Monitoring usage to minimise wastage, and Advocacy for decentralised management</p>
+      <br>
+      <hr class="mt-3">
+
+
+
+<div class="ind-mapa">
+  <iframe class="resp-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.20579937934!2d80.20414991482323!3d13.08613979078077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3462fae3956adfd6!2zMTPCsDA1JzEwLjEiTiA4MMKwMTInMjIuOCJF!5e0!3m2!1sen!2sin!4v1650723005120!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    frameborder="0"></iframe>
+
+  <div class="ind-media">
+
+
+    <div class="card-body">
+    <h2 style="text-align:right;" class="card-title">Contact Us</h2>
+    <h4 class="card-subtitle mb-2 text-muted">CARD TRUST</h4>
+    <p class="card-text">Tamil Nadu</p>
+    <p>admin@cardtrust.com</p>
+      <p>No. AP-832, G Block, 11th Main Road, Anna Nagar, Chennai - 600040</p>
+      <p> (+91) 9591332300</p>
+      <a href="#" class="card-link"> <i class="fa-solid fa-phone"></i> Phone</a>
+    <a href="#" class="card-link">  <i class="fa-solid fa-envelope"></i> Email</a>
+  </div>
+</div>
+
+
+  </div>
+
+
+
+
+<!--contact us-->
+
+
+
+
+ <footer>
+    <h5>Copyright © 2022. Card Trust Council.
+      <i class=" yo fa-brands fa-facebook fa-2xl"></i>
+      <i class=" yo fa-brands fa-youtube fa-2xl"></i>
+      <i class=" yo fa-brands fa-whatsapp fa-2xl"></i>
+    </h5>
+  </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </div>
+   </body>
+</html>
+
+
+
+
+
+
+
+

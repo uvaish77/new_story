@@ -1,0 +1,229 @@
+{% load static from staticfiles %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'cardtrust.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Rubik:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/d93444fe93.js" crossorigin="anonymous"></script>
+    <title>Card Trust</title>
+  </head>
+  <body>
+
+<!--navbars-->
+
+  <div class="navbarss">
+
+  <!--  <div class="id">
+     <img  src="images/logo (1).png" alt="" width="350" height="84">
+  </div>-->
+      <div class="id">
+          <a class="nav-link" href="{% url 'home-page' %}">
+              <img  src="{% static 'logo.png' %}" alt="" width="100%" height="">
+          </a>
+  </div>
+      <!--<div class="phone">
+              <i class="fa-solid fa-phone"> 7299449083</i>
+          <br>
+      </div>
+    <div class="email">
+      <i class="fa-solid fa-envelope"> info@council.com</i>
+    </div>-->
+<!--  <div class="btt">
+    <button type="button" role="group" class="btn btn-outline-primary"> <h5>Membership</h5> </button>
+
+  </div>-->
+
+
+   <!--navbars-->
+
+    <nav class=" nav navbar navbar-expand-lg navbar-light justify-content-center" style="background-color: #FAFFAF;">
+     <div class="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+       </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="nnn">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'home-page' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'card-trust' %}">Card Trust</a>
+        </li>
+               <li class="nav-item">
+          <a class="nav-link active" href="{% url 'about-us' %}">About Us</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'donate-info' %}">Donate</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'events' %}">Events</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'testimonials' %}">Testimonials</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="{% url 'cancer' %}">Cancer Hospital and Research Project</a></li>
+            <li><a class="dropdown-item" href="{% url 'ro' %}">R.O Project</a></li>
+              <li><a class="dropdown-item" href="{% url 'video' %}">Video</a></li>
+
+          </ul>
+        </li>
+      </ul>
+        </div>
+    </div>
+  </div>
+</nav>
+
+  </div>
+
+<!--middle-->
+
+<div class="content-img">
+       <img src="{% static 'image.png' %}" class="d-block w-100" alt="..."  width="100%" height="">
+  </div>
+
+
+  <div class="content">
+
+    <h1></h1>
+    <h2></h2>
+    <h3>BACKGROUND OF CARD TRUST:</h3>
+    <h6>
+      Cumulative Action for Rural Development Trust CARD- Trust has been registered as social, voluntary, charitable, non-profitable secular Non-Government Organization.
+      Which is serving for the promotion of deprived, disordered, and divested with socially, economically excluded comminuted to exist sustainable development in all grounds.
+      Card Trust was established by our Founder Mr. Balamurali, on 2004 to involve in Women entrepreneurs in non form sector at Villupuram, Cuddalore and Tiruvannamalai District.
+      CARD Trust was registered under Indian Trust Act and also in Foreign Contribution Regulation Act of the Government of India. It also has received in Income tax department in 12A and tax exemption in 80G.
+      CARD Trust work for the welfare and development of rural poor in Villupuram, Cuddalore and Tiruvannamalai District. With particular emphasis on women and children. CARD support rural and tribal people who are in need of infrastructure, food, education, health, economic, clothing , psychological and moral support.
+    </h6>
+     <h6>
+       CARD TrustTrust Children programme covers 630 children in Tribal and rural,, 3000 women and covers 65 villages in Villupuram, Cuddalore and Tiruvannamalai District. Trust has promoted 250 SHG in rural and Tribal, urban areas of Villupuram and Tiruvannamalai District. Trust provide sustainable economic development training through EDP, MEDP,ESDP and skill training programmes. The trust frequently provides conceptual and functional skill up graduation training and consultancy to various – level plan performers and undertakes management research in a wide spectrum of areas. Besides, it also actively takes part in the implementation of variety of constructive development and awareness programs for and on behalf of the government and the globalize private and public sector organizations and voluntary agencies.
+     </h6>
+    <h4>OUR MISSION:</h4>
+         <h6>To facilitate and ensure corporate development through better resource- Utilization and participate development of beneficiaries with the objective of promoting and empowered society which will encourage the emergence of empowered, self reliant and co-operative people all around the villages.</h6>
+
+    <h4>OUR VISION:</h4>
+      <h6>
+    We improve the condition of women through direct employment, education, medical aid and training opportunities.
+      </h6>
+
+    <h4>OUR GOAL:</h4>
+      <h6>
+    Card trust  commits time bound programs, organizational role expectations in development of productivity in terms of increase in per-capita income, and the aim is to bring a social- economic transformations.
+      </h6>
+    <h4>OUR OBJECTIVES:</h4>
+         <h6>
+   Card Trust works for the welfare and development of rural poor in villages with particular emphasis on village development.
+
+     </h6>
+
+    <h6>
+      Our trust has thrust in various social issues:-
+  <li>Women empowerment and training.</li>
+    <li>Training on self employment.</li>
+    <li>Public awareness, education, solid waste management, sanitation, health, naturopathy, yoga, aid, etc.</li>
+    <li>Promoting SHG, Farmers club, joint liability groups, cluster formation, networking business opportunities.</li>
+    <li>Child rights through children clubs, implementing UNCRC-declarations.</li>
+    <li> Creating special platform form differently abled people to get sustainable economic educational stand.</li>
+    <li>Providing unique opportunities to the girl children in tribal, underprivileged community and all BPL family in all community.</li>
+    <li>We associate and consultant of National NGO’s Government sector</li>
+
+    </h6>
+
+
+     <h4>ORGANISATION LEGAL RIGHTS AND STATUS :- </h4>
+      <h6>
+        NGO NAME: CUMULATIVE ACTION FOR RURAL DEVELOPMENT TRUST [CARD TRUST]
+          DATE OF ESTABLISHMENT AND REGISTRATION NUMBER: 02.07.2004 / 30/2004.
+      </h6>
+    <h4>LEGAL REGISTRATION:-</h4>
+      <h6>
+     Registered under:
+    <li>MINISTRY OF CORPORATE AFFAIRS</li>
+    <li>F.C.R.A Ministry of Home affairs, Govt of India.</li>
+    <li>12AA (b) of INCOME TAX</li>
+    <li>80G – TAX Exemption, C.No.9165E(1316)/CIT/PDY/2010-11</li>
+    <li>35AC</li>
+    <li>NGO PANCARD NO:   AABTC1240R</li>
+    <li>NGO CSWB – REG. NO: TN/00023629</li>
+    <li>PLANNING COMMISSION: TN/2012/0050434 [NGO PORTAL REGISTRATION]</li>
+
+      </h6>
+      <br>
+      <hr class="mt-3">
+
+
+
+<div class="ind-mapa">
+  <iframe class="resp-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.20579937934!2d80.20414991482323!3d13.08613979078077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3462fae3956adfd6!2zMTPCsDA1JzEwLjEiTiA4MMKwMTInMjIuOCJF!5e0!3m2!1sen!2sin!4v1650723005120!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    frameborder="0"></iframe>
+
+  <div class="ind-media">
+
+
+    <div class="card-body">
+    <h2 style="text-align:right;" class="card-title">Contact Us</h2>
+    <h4 class="card-subtitle mb-2 text-muted">CARD TRUST</h4>
+    <p class="card-text">Tamil Nadu</p>
+    <p>admin@cardtrust.com</p>
+      <p>No. AP-832, G Block, 11th Main Road, Anna Nagar, Chennai - 600040</p>
+      <p> (+91) 9591332300</p>
+      <a href="#" class="card-link"> <i class="fa-solid fa-phone"></i> Phone</a>
+    <a href="#" class="card-link">  <i class="fa-solid fa-envelope"></i> Email</a>
+  </div>
+</div>
+
+
+  </div>
+
+
+
+
+<!--contact us-->
+
+
+
+
+ <footer>
+    <h5>Copyright © 2022. Card Trust Council.
+      <i class=" yo fa-brands fa-facebook fa-2xl"></i>
+      <i class=" yo fa-brands fa-youtube fa-2xl"></i>
+      <i class=" yo fa-brands fa-whatsapp fa-2xl"></i>
+    </h5>
+  </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </div>
+   </body>
+</html>
+
+
+
+
+
+
+
+

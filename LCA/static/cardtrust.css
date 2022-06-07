@@ -1,0 +1,397 @@
+html,body{
+ scroll-behavior: smooth;
+  width: 100%;
+  min-height: 100%;
+  background:#FAFFAF;
+
+}
+
+.contact card{
+width:500px;
+
+}
+.container{
+width: 150%;
+height: 100vh;
+display: ;
+align-items: center;
+justify-content: center;
+flex-direction: colum;
+margin-top:80px;
+margin-right:250px;
+position: relative;
+}
+
+.navbarss{
+background:#FAFFAF;
+}
+
+.content{
+padding:20px;
+
+background:#FAFFAF;
+}
+
+.card{
+width:72%;
+height:350px;
+display:inline-block;
+position:;
+margin-left:20px;
+}
+
+
+.card-header{
+text-align:center;
+
+}
+
+
+/*footer*/
+
+footer{
+text-align:center;
+background:#FAFFAF;
+font-color:#FFEEEE;
+position:relative;
+height:4.5rem;
+padding-top:1.5rem;
+}
+
+
+/*navbar*/
+
+.id{
+/*width=25rem;
+padding-top:.3rem;
+padding-left: 1rem;
+position:relative;
+display:inline-block;*/
+display: flex;
+align-items: center;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+.nav-link{
+margin-left:1.5rem;
+font-size:1.5rem;
+}
+
+.nnn{
+text-align:center;
+padding:.7rem;
+font-family: 'PT Sans Narrow', sans-serif;
+
+
+}
+
+.nav{
+margin-bottom:.7rem;
+
+}
+
+.nav-link,.navbar-brand{
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:1.6rem;
+}
+
+.card-title{
+font-family: 'Rubik', sans-serif;
+text-align:left;
+margin-bottom:1.8rem;
+}
+
+h5{
+font-family: 'Rubik', sans-serif;
+}
+
+p{
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:1.2rem;
+}
+
+/*
+bootsnip css*/
+
+.ind-mapa {
+  background:#FAFFAF;
+  position: relative;
+  display: flex;
+/*  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:7px;*/
+
+}
+
+/*.ind-mapa>* {
+  flex: 0 1 auto;
+  border-radius: 0px;
+  box-shadow: 3px 3px 5px 3px #ccc;
+  z-index: 1;
+}*/
+
+
+.resp-iframe {
+  flex: 0 0 auto;
+  width:19rem;
+  height:19rem;
+  margin-right: 1.6rem;
+  margin-left:.7rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+
+
+	/* Conatct end */
+
+/*css for gri page*/
+
+.teamimage{
+   padding-top:2rem;
+   text-align:center;
+   text-color:#FF1818;
+}
+.img-responsive{
+border-radius:100%;
+}
+
+.teamcontent{
+text-align:center;
+color:red;
+}
+
+
+
+/*netflix slider*/
+
+
+.wrapper {
+ background:#FAFFAF;
+ display: grid;
+ width: 100%;
+ grid-template-columns: repeat(2, 100%);
+ overflow: hidden;
+ scroll-behavior: smooth;
+}
+.wrapper section {
+ width: 100%;
+ position: relative;
+ display: grid;
+ grid-template-columns: repeat(5, auto);
+ margin: 1.3rem 0;
+}
+
+
+.wrapper section .item {
+ padding: 0 2px;
+ width: 100%;
+ transition: 350ms all;
+}
+.wrapper section .item:hover {
+ margin: 0 2.3rem;
+ transform: scale(1.3);
+}
+.wrapper section a {
+ position: absolute;
+ color: #fff;
+ text-decoration: none;
+ font-size: 6em;
+ background: ;
+ width: 4rem;
+ padding: 1.3rem;
+ text-align: center;
+ z-index: 1;
+}
+.wrapper section a:nth-of-type(1) {
+ top: 0;
+ bottom: 0;
+ left: 0;
+ background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+.wrapper section a:nth-of-type(2) {
+ top: 0;
+ bottom: 0;
+ right: 0;
+ background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+@media only screen and (max-width: 600px) {
+ a.arrow__btn {
+ display: none;
+
+ }
+}
+
+.event-heading{
+margin-left:.7rem;
+color:red;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:2rem;
+}
+
+.event-content{
+background:#FAFFAF;
+
+
+}
+
+/*
+css for table*/
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+  text-align:center;
+  border-color:black;
+
+  /*margin-left:330px;*/
+}
+
+td, th {
+  border: 1px solid #800;
+  text-align: center;
+  color:black;
+  padding: 0px;
+}
+
+tr:nth-child(even) {
+  border: 1px solid #800;
+  color:black;
+}
+
+.cancerpagebg{
+width:25rem;
+height:15rem;
+margin:2rem;
+
+}
+
+.ropagebg{
+width:15rem;
+height:15rem;
+margin:2rem;
+}
+
+
+.cancerpage{
+text-align:center;
+background:#FAFFAF;
+}
+
+
+
+/*css for video page*/
+
+
+.conts{
+width:100%;
+height:100%;
+text-align:center;
+display:inline-block;
+background:#FAFFAF;
+
+}
+
+.vid{
+padding:.8rem;
+width:30rem;
+height:16rem;
+}
+
+
+
+/*css for donat page*/
+
+.main-contant{
+background:#FAFFAF;
+
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.con1{
+width:85%;
+padding:1rem;
+margin: 0 auto;
+border: 1px solid gray;
+}
+
+.vrified-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qr-title{
+text-align:center;
+color:gray;
+}
+
+
+.test {
+  width: 100%;
+  height: 23rem;
+  line-height: 23rem;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1576381394626-53b3d2d48145?ixlib=rb-1.2ufDB8fDB8fA%3D%3D&w=1000&q=80');
+  text-align: center;
+}
+.test p  {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+
+}
+
+
+
+.img-div{
+background:#FAFFAF;
+padding-top:2rem;
+}
+
+
+
+
+
+/*media quary*/
+
+@media(max-width:998px){
+html{
+font-size:55%;
+width:auto;
+}
+
+}
+
+@media(max-width:768px){
+html{
+font-size:45%;
+width:auto;
+}
+
+}
+
+
+

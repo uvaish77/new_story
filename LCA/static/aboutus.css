@@ -1,0 +1,252 @@
+
+html,body {
+ scroll-behavior: smooth;
+  width: 100%;
+  min-height: 100%;
+  background:#FAFFAF;
+}
+
+
+
+.content{
+padding:1.4rem;
+background:#FAFFAF;
+}
+
+
+.navbarss{
+background:#FAFFAF;
+}
+
+
+.card-header{
+text-align:center;
+
+}
+
+
+footer{
+text-align:center;
+background:#FAFFAF;
+font-color:#FFEEEE;
+position:relative;
+height:4.5rem;
+padding-top:1.5rem;
+}
+
+.phone{
+margin-left:8rem;
+}
+
+.email{
+margin-left:2rem;
+}
+
+.btt{
+margin-left:10rem;
+margin-right:2rem;
+}
+
+/*navbar*/
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+
+.id{
+/*width=25rem;
+padding-top:.3rem;
+padding-left: 1rem;
+position:relative;
+display:inline-block;*/
+display: flex;
+align-items: center;
+
+}
+
+
+.nav-link{
+margin-left:1.5rem;
+font-size:1.5rem;
+}
+
+.nnn{
+text-align:center;
+padding:.7rem;
+font-family: 'PT Sans Narrow', sans-serif;
+
+
+}
+
+.nav{
+margin-bottom:.7rem;
+
+}
+
+.nav-link,.navbar-brand{
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:1.6rem;
+}
+
+.card-title{
+font-family: 'Rubik', sans-serif;
+text-align:left;
+margin-bottom:1.8rem;
+}
+
+h5{
+font-family: 'Rubik', sans-serif;
+}
+
+p{
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:1.2rem;
+}
+
+/*
+bootsnip css*/
+
+.ind-mapa {
+  background:#FAFFAF;
+  position: relative;
+  display: flex;
+/*  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:7px;*/
+
+}
+
+/*.ind-mapa>* {
+  flex: 0 1 auto;
+  border-radius: 0px;
+  box-shadow: 3px 3px 5px 3px #ccc;
+  z-index: 1;
+}*/
+
+
+.resp-iframe {
+  flex: 0 0 auto;
+  width:19rem;
+  height:19rem;
+  margin-right: 1.6rem;
+  margin-left:.7rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+
+	/* Conatct end */
+
+
+
+
+
+/*css for cards*/
+
+
+
+.teamimage{
+   padding-top:30px;
+   text-align:center;
+   text-color:#FF1818;
+}
+.img-responsive{
+border-radius:100%;
+}
+
+
+.card-styles{
+
+padding:1.5rem;
+}
+
+.item{
+  padding-left:5px;
+  padding-right:5px;
+  text-align:center;
+
+
+}
+.item-card{
+  transition:0.5s;
+  cursor:pointer;
+  background:#FF8C32;
+
+}
+.item-card-title{
+  font-size:1rem;
+  transition:1s;
+  cursor:pointer;
+}
+.item-card-title i{
+  font-size:1rem;
+  transition:1s;
+  cursor:pointer;
+  color:#ffa710
+}
+.card-title i:hover{
+  transform: scale(1.25) rotate(100deg);
+  color:#18d4ca;
+
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.card-text{
+  height:5rem;
+}
+
+.card::before, .card::after {
+  position: ;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: justify-center;
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+
+
+
+
+/*media quary*/
+
+@media(max-width:998px){
+html{
+font-size:55%;
+width:auto;
+}
+
+}
+
+@media(max-width:786px){
+html{
+font-size:45%;
+width:auto;
+
+}
+}
+
+

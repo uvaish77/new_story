@@ -1,0 +1,453 @@
+{% load static from staticfiles %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'cardtrust.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Rubik:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/d93444fe93.js" crossorigin="anonymous"></script>
+    <title>Cancer Hospital and Research Project</title>
+  </head>
+  <body>
+
+<!--navbars-->
+
+  <div class="navbarss">
+
+  <!--  <div class="id">
+     <img  src="images/logo (1).png" alt="" width="350" height="84">
+  </div>-->
+      <div class="id">
+          <a class="nav-link" href="{% url 'home-page' %}">
+              <img  src="{% static 'logo.png' %}" alt="" width="100%" height="">
+          </a>
+  </div>
+      <!--<div class="phone">
+              <i class="fa-solid fa-phone"> 7299449083</i>
+          <br>
+      </div>
+    <div class="email">
+      <i class="fa-solid fa-envelope"> info@council.com</i>
+    </div>-->
+<!--  <div class="btt">
+    <button type="button" role="group" class="btn btn-outline-primary"> <h5>Membership</h5> </button>
+
+  </div>-->
+
+
+   <!--navbars-->
+
+    <nav class=" nav navbar navbar-expand-lg navbar-light justify-content-center" style="background-color: #FAFFAF;">
+     <div class="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+       </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="nnn">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'home-page' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'card-trust' %}">Card Trust</a>
+        </li>
+               <li class="nav-item">
+          <a class="nav-link active" href="{% url 'about-us' %}">About Us</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'donate-info' %}">Donate</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'events' %}">Events</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link active" href="{% url 'testimonials' %}">Testimonials</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="{% url 'cancer' %}">Cancer Hospital and Research Project</a></li>
+            <li><a class="dropdown-item" href="{% url 'ro' %}">R.O Project</a></li>
+              <li><a class="dropdown-item" href="{% url 'video' %}">Video</a></li>
+
+          </ul>
+		  </li>
+      </ul>
+        </div>
+    </div>
+  </div>
+</nav>
+
+  </div>
+
+<!--middle-->
+
+
+<div class="content-img">
+       <img src="{% static 'cancerbg.png' %}" class="d-block w-100" alt="..."  width="100%" height="">
+  </div>
+<br>
+
+<div class="cancerpage">
+       <img src="{% static 'gallary2/Picture14.jpg' %}" class="cancerpagebg" alt="..."  width="" height="">
+  </div>
+
+
+  <div class="content">
+
+    <h1></h1>
+    <h2></h2>
+    <h4>INTRODUCTION:</h4>
+    <p>
+     CARD Trust 100-bed Cancer care and prevention project is to provide Cancer patients and the chronically/terminally ill people with easily accessible quality healthcare services through integration of oncology and palliative care.
+
+    </p>
+
+    <h4>THE HOSPITAL SEEKS TO PROVIDE SPECIALTY SERVICES:</h4>
+      <p>
+       <li>Medical, Surgical & Radiation Oncology, Palliative Care, Paediatric Cancer, Pain Management & Support Services</li>
+       <li>A state of the art Lab for Bio-chemistry, Microbiology, Pathology and Haematology will also form part of the Hospital.</li>
+       <li>A state of the art Lab for Bio-chemistry, Microbiology, Pathology and Haematology will also form part of the Hospital.</li>
+       <li>A separate Geriatric – Male and Female Paediatric wards.</li>
+      </p>
+
+
+    <h4>ABOUT THE PROJECT:</h4>
+
+        <li>Construction of a day-care block and a 100 Bed Hospital</li>
+        <li>Offer affordable and quality services</li>
+        <li>Estimated built-up area of about 70,000 Square Feet on 10 acres</li>
+        <li>Land estimated total project cost of INR 150 Crores.</li>
+        <li>Will cater 10 Out-Patient Consultation Rooms, 4 Operation Theatres and 100 In-Patient Beds of which 28 will be transit beds and 72 operational beds</li>
+
+      <p> To be completed and ready for operations within two years from the commencement of the project; the OPD block will however, be operational within 8-10 months.</p>
+
+        <p>The hospital will be an Exclusive Modernized and well-equipped Cancer care Super-Specialty. It will provide comprehensive services to cover all the health care needs of the Cancer patients. The facilities includes spacious green cover, alternative treatments such as yoga, pranic healing, music therapy, etc.</p>
+
+    <h4>MEDICAL SPECIALITIES & SERVICES:</h4>
+      <p>The Cancer & Palliative care hospital will provide facilities as detailed below:</p>
+
+    <h4>DIAGNOSTICS & TREATMENT:</h4>
+
+      <li>Radiology & imaging services – Linear Accelerator, Brachy Therapy, Digital X-ray, Mammogram, Ultrasound, Endoscope, Colonoscopy, Sigmoidoscopy, Bronchoscopy, CT-Scan, EEG, ECG, Echo Doppler</li>
+      <li>State-of-the-art Lab for Bio-Chemistry, Microbiology, Pathology & Haematology</li>
+      <li>Blood bank for collection and storage of blood & blood components.</li>
+      <li>Paediatric Cancer Care</li>
+      <li>Laminar Hood</li>
+
+
+    <h4>AMBULATORY CARE SERVICES:</h4>
+      <li>Critical Care</li>
+      <li>Emergency Care</li>
+      <li>ICU</li>
+      <li>Lab Medicine</li>
+      <li>Operation Theatres – 4</li>
+
+    <h4>MEDICAL SUPPORT FACILITIES:</h4>
+      <li>Consultation Rooms (10 nos)</li>
+       <li>Ambulance (2 nos)</li>
+       <li>Cold (Body) Storage</li>
+       <li>Medical Records</li>
+       <li>Pharmacy (OP, IP & OT)</li>
+        <li>Counselling Room</li>
+        <li>Physiotherapy & Rehabilitation Centre</li>
+
+      <h4>SUPPORT SERVICES:</h4>
+      <li>CSSD</li>
+      <li>Engineering & Maintenance</li>
+      <li>Canteen</li>
+      <li>Front Office (Admission & Reception)</li>
+      <li>House Keeping</li>
+      <li>IT</li>
+
+      <h4>ADMINISTRATIVE SERVICES:</h4>
+      <li>Finance & Secretarial</li>
+       <li>HR</li>
+       <li>Materials</li>
+       <li>Security</li>
+       <li>Dormitory for attenders and RT patients</li>
+       <li>Grievance cell</li>
+
+      <h4>CLASSIFICATION OF BEDS:</h4>
+
+      <p>The hospital will have a capacity for 100 beds of which 28 will be transit beds and 72 operational beds. The beds will be broadly classified into beds in the wards and Transit beds that includes – Emergency, ICU, Isolation and Palliative care beds.</p>
+
+      <h4></h4>
+
+
+<table style="border: 1px solid #900" >
+  <tr>
+    <th>BED CLASSIFICATION</th>
+    <th>NO. OF BEDS</th>
+  </tr>
+  <tr>
+    <th>A. TRANSIT BEDS</th>
+    <th>28</th>
+  </tr>
+  <tr>
+    <td>Emergency</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Isolation</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>ICU</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Palliative Care Beds</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <th>B. Others Beds</th>
+    <th>72</th>
+  </tr>
+    <tr>
+    <td>Geriatric Ward</td>
+    <td>10</td>
+  </tr>
+    <tr>
+    <td>Geriatric Ward (Male)</td>
+    <td>10</td>
+  </tr>
+    <tr>
+    <td>Geriatric Ward (Female)</td>
+    <td>12</td>
+  </tr>
+    <tr>
+    <td>Paediatric Geriatric Ward</td>
+    <td>8</td>
+  </tr>
+    <tr>
+    <td>Semi Private</td>
+    <td>20</td>
+  </tr>
+    <tr>
+    <td>Private</td>
+    <td>10</td>
+  </tr>
+    <tr>
+    <td>Deluxe</td>
+    <td>2</td>
+  </tr>
+</table>
+<hr class="mt-3">
+<br>
+ <h4>PROCESS FLOW PROGRAM:</h4>
+  <P>The project is proposed to be undertaken in the following phases:</P>
+
+  <table style="border: 1px solid #900">
+  <tr>
+    <td>Out Patient Block</td>
+
+  </tr>
+  <tr>
+    <td>Radiology Block </td>
+
+  </tr>
+  <tr>
+    <td>Clinical Block </td>
+
+  </tr>
+  <tr>
+    <td>ICU Block</td>
+  </tr>
+  <tr>
+    <td>Palliative Care Block </td>
+
+  </tr>
+  <tr>
+    <td>Emergency Care Block </td>
+
+  </tr>
+
+    <tr>
+    <td>Geriatric Ward (Male) Block</td>
+
+  </tr>
+    <tr>
+    <td>Geriatric Ward (Female) Block</td>
+
+  </tr>
+    <tr>
+    <td>Admin Block</td>
+
+  </tr>
+    <tr>
+    <td>Semi Private Block</td>
+
+  </tr>
+    <tr>
+    <td>Private Block</td>
+
+  </tr>
+    <tr>
+    <td>Patient Support Service Block</td>
+  </tr>
+       <tr>
+    <td>Doctors  Block</td>
+  </tr>
+</table>
+
+      <br>
+      <hr class="mt-3">
+
+
+   <h4>IMPLEMENTATION PLAN:</h4>
+
+<table style="border: 1px solid #900">
+  <tr>
+    <th>PARTICULARS</th>
+    <th>TIME FRAME</th>
+
+  </tr>
+    <tr>
+    <th>Phase 1: Land Acquisition</th>
+    </tr>
+  <tr>
+    <td>Land Acquisition</td>
+    <td>Based on discussion</td>
+  </tr>
+  <tr>
+    <td>Soil Testing & Land Classification</td>
+    <td>15 Days</td>
+  </tr>
+  <tr>
+    <td>Architectural Drawing</td>
+    <td>3 Months</td>
+  </tr>
+  <tr>
+    <td>Approvals & Permits</td>
+    <td>3-8 Months</td>
+  </tr>
+  <tr>
+    <th>Phase 2: Constraction</th>
+  </tr>
+  <tr>
+    <td>OP Block & Admin Block</td>
+    <td>8-10 Months</td>
+  </tr>
+    <tr>
+    <td>Administration Block</td>
+    <td>8-16 Months</td>
+  </tr>
+    <tr>
+    <td>Pharmacy Block</td>
+    <td>8-16 Months</td>
+  </tr>
+    <tr>
+    <td>Radiation Block</td>
+    <td>8-16 Months</td>
+  </tr>
+    <tr>
+    <td>Laboratory Block</td>
+    <td>8-16 Months</td>
+  </tr>
+    <tr>
+    <td>
+        <li> IP Block</li>
+        <li> Gen. Ward Male Block Gen. Ward Female Block</li>
+        <li> Operation Theatres Block Critical Care Block Private</li>
+        <li> Rooms Block</li>
+        <li>Medical Labratory Block</li>
+    </td>
+    <td>16-Months</td>
+  </tr>
+    <tr>
+    <td>Furniture And Air-Conditioning</td>
+    <td>5-Months</td>
+  </tr>
+    <tr>
+    <th>Phase 3:</th>
+  </tr>
+     <tr>
+    <td>Machinery</td>
+    <td>6 Months</td>
+  </tr>
+     <tr>
+    <td>Vehicles</td>
+    <td>3 Months</td>
+  </tr>
+     <tr>
+    <td>Software</td>
+    <td>6 Months</td>
+  </tr>
+</table>
+<hr class="mt-3">
+<br>
+
+
+  </div>
+
+
+<div class="ind-mapa">
+  <iframe class="resp-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.20579937934!2d80.20414991482323!3d13.08613979078077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3462fae3956adfd6!2zMTPCsDA1JzEwLjEiTiA4MMKwMTInMjIuOCJF!5e0!3m2!1sen!2sin!4v1650723005120!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    frameborder="0"></iframe>
+
+  <div class="ind-media">
+
+
+    <div class="card-body">
+    <h2 style="text-align:right;" class="card-title">Contact Us</h2>
+    <h4 class="card-subtitle mb-2 text-muted">CARD TRUST</h4>
+    <p class="card-text">Tamil Nadu</p>
+    <p>admin@cardtrust.com</p>
+      <p>No. AP-832, G Block, 11th Main Road, Anna Nagar, Chennai - 600040</p>
+      <p> (+91) 9591332300</p>
+      <a href="#" class="card-link"> <i class="fa-solid fa-phone"></i> Phone</a>
+    <a href="#" class="card-link">  <i class="fa-solid fa-envelope"></i> Email</a>
+  </div>
+</div>
+
+
+  </div>
+
+
+
+
+<!--contact us-->
+
+
+
+
+ <footer>
+    <h5>Copyright © 2022. Card Trust Council.
+      <i class=" yo fa-brands fa-facebook fa-2xl"></i>
+      <i class=" yo fa-brands fa-youtube fa-2xl"></i>
+      <i class=" yo fa-brands fa-whatsapp fa-2xl"></i>
+    </h5>
+  </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>
+
+
+
+
+
+
+
+
